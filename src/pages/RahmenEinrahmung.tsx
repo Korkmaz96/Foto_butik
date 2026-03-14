@@ -4,6 +4,7 @@ import { SeoHead } from "@/components/SeoHead";
 import { CTABanner } from "@/components/TrustSection";
 import { PortfolioCarousel } from "@/components/PortfolioCarousel";
 import { seoMeta, studio, rahmenImages } from "@/data/content";
+import rahmenHeader03 from "@/assets/rahmen/header/rahmen_massanfertigungrahmen_kat_03.jpg";
 
 const features = [
   "Maßanfertigung für jedes Format",
@@ -51,7 +52,7 @@ const RahmenEinrahmung = () => {
       {/* Hero */}
       <div className="h-[55vh] min-h-[360px] relative overflow-hidden flex items-end">
         <img
-          src="src\assets\rahmen\header\rahmen_massanfertigungrahmen_kat_03.jpg"
+          src={rahmenHeader03}
           alt="Bilderrahmen Einrahmung Stuttgart"
           className="absolute inset-0 w-full h-full object-cover object-center"
           loading="eager"
