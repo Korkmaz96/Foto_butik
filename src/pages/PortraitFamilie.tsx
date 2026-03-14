@@ -5,6 +5,10 @@ import { Check } from "lucide-react";
 import { SeoHead } from "@/components/SeoHead";
 import { CTABanner } from "@/components/TrustSection";
 import { prices, seoMeta, portfolioImages } from "@/data/content";
+import familie02 from "@/assets/kinder/portrait_familie_02.jpg";
+import familie03 from "@/assets/kinder/portrait_familie_03.jpg";
+import schwangerschaft03 from "@/assets/schwangerschaft/portrait_schwangerschaft_03.jpg";
+import schwangerschaft04 from "@/assets/schwangerschaft/portrait_schwangerschaft_04.jpg";
 
 type Category = "Alle" | "Portrait" | "Familie" | "Schwangerschaft";
 
@@ -12,13 +16,13 @@ const galleryImages = [
   ...portfolioImages.filter((_, i) => [1, 4, 9].includes(i)),
   {
     id: 11,
-    src: "src/assets/kinder/portrait_familie_02.jpg",
+    src: "familie02",
     alt: "Familie mit Baby",
     category: "Familie",
   },
   {
     id: 12,
-    src: "src/assets/kinder/portrait_familie_03.jpg",
+    src: "familie03",
     alt: "Kinderfoto natürlich",
     category: "Familie",
   },
@@ -36,13 +40,13 @@ const galleryImages = [
   },
   {
     id: 15,
-    src: "src/assets/schwangerschaft/portrait_schwangerschaft_03.jpg",
+    src: "schwangerschaft03",
     alt: "Schwangerschaft Portrait",
     category: "Schwangerschaft",
   },
   {
     id: 16,
-    src: "src/assets/schwangerschaft/portrait_schwangerschaft_04.jpg",
+    src: "schwangerschaft04",
     alt: "Schwangerschaft Portrait",
     category: "Schwangerschaft",
   },

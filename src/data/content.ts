@@ -1,7 +1,19 @@
 // ============================================================
-// foto-butik — Editierbarer Content
+// foto-butik - Editierbarer Content
 // Alle Texte, Preise und Informationen zentral hier ändern
 // ============================================================
+import rahmenHeader03 from "@/assets/rahmen/header/rahmen_massanfertigungrahmen_kat_03.jpg";
+import rahmen02 from "@/assets/rahmen/rahmen_massanfertigungrahmen_02.jpg";
+import rahmen03 from "@/assets/rahmen/rahmen_massanfertigungrahmen_03.jpg";
+import rahmen04 from "@/assets/rahmen/rahmen_massanfertigungrahmen_04.jpg";
+import rahmen05 from "@/assets/rahmen/rahmen_massanfertigungrahmen_05.jpg";
+import rahmen06 from "@/assets/rahmen/rahmen_massanfertigungrahmen_06.jpg";
+import rahmen07 from "@/assets/rahmen/rahmen_massanfertigungrahmen_07.jpg";
+import rahmen08 from "@/assets/rahmen/rahmen_massanfertigungrahmen_08.jpg";
+import rahmen09 from "@/assets/rahmen/rahmen_massanfertigungrahmen_09.jpg";
+import familie02 from "@/assets/kinder/portrait_familie_02.jpg";
+import familie03 from "@/assets/kinder/portrait_familie_03.jpg";
+import rahmenHeader02 from "@/assets/rahmen/header/rahmen_massanfertigungrahmen_kat_02.jpg";
 
 export const studio = {
   name: "foto-butik",
@@ -184,7 +196,7 @@ export const services = [
     subtitle: "Boutique-Werkstatt vor Ort",
     description: "Maßanfertigung, große Passepartout-Auswahl, UV-Schutzglas und Leinwandbespannung.",
     link: "/rahmen-einrahmung",
-    image: "src/assets/rahmen/header/rahmen_massanfertigungrahmen_kat_03.jpg",
+    image: "rahmenHeader03",
     alt: "Rahmen und Einrahmung",
   },
 ];
@@ -278,49 +290,49 @@ export const trustItems = [
 export const rahmenImages = [
   {
     id: 1,
-    src: "src/assets/rahmen/rahmen_massanfertigungrahmen_02.jpg",
+    src: "rahmen02",
     alt: "Rahmen0",
     category: "Rahmen",
   },
   {
     id: 2,
-    src: "src/assets/rahmen/rahmen_massanfertigungrahmen_03.jpg",
+    src: "rahmen03",
     alt: "Rahmen1",
     category: "Rahmen",
   },
   {
     id: 3,
-    src: "src/assets/rahmen/rahmen_massanfertigungrahmen_04.jpg",
+    src: "rahmen04",
     alt: "Rahmen2",
     category: "Rahmen",
   },
   {
     id: 4,
-    src: "src/assets/rahmen/rahmen_massanfertigungrahmen_05.jpg",
+    src: "rahmen05",
     alt: "Rahmen3",
     category: "Rahmen",
   },
   {
     id: 5,
-    src: "src/assets/rahmen/rahmen_massanfertigungrahmen_06.jpg",
+    src: "rahmen06",
     alt: "Rahmen4",
     category: "Rahmen",
   },
   {
     id: 6,
-    src: "src/assets/rahmen/rahmen_massanfertigungrahmen_07.jpg",
+    src: "rahmen07",
     alt: "Rahmen5",
     category: "Rahmen",
   },
   {
     id: 7,
-    src: "src/assets/rahmen/rahmen_massanfertigungrahmen_08.jpg",
+    src: "rahmen08",
     alt: "Rahmen6",
     category: "Rahmen",
   },
   {
     id: 8,
-    src: "src/assets/rahmen/rahmen_massanfertigungrahmen_09.jpg",
+    src: "rahmen09",
     alt: "Rahmen7",
     category: "Rahmen",
   },
@@ -347,7 +359,7 @@ export const portfolioImages = [
   },
   {
     id: 4,
-    src: "src/assets/kinder/portrait_familie_02.jpg",
+    src: "familie02",
     alt: "Familienfoto mit Kindern",
     category: "Familie",
   },
@@ -359,13 +371,13 @@ export const portfolioImages = [
   },
   {
     id: 7,
-    src: "src/assets/kinder/portrait_familie_03.jpg",
+    src: "familie03",
     alt: "Kinderfoto natürlich",
     category: "Kinderfoto",
   },
   {
     id: 8,
-    src: "src/assets/rahmen/header/rahmen_massanfertigungrahmen_kat_02.jpg",
+    src: "rahmenHeader02",
     alt: "Bilderrahmen Einrahmung",
     category: "Rahmen",
   },
