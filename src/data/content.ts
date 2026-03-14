@@ -3,6 +3,7 @@
 // Alle Texte, Preise und Informationen zentral hier ändern
 // ============================================================
 import rahmenHeader03 from "@/assets/rahmen/header/rahmen_massanfertigungrahmen_kat_03.jpg";
+import rahmenHeader02 from "@/assets/rahmen/header/rahmen_massanfertigungrahmen_kat_02.jpg";
 import rahmen02 from "@/assets/rahmen/rahmen_massanfertigungrahmen_02.jpg";
 import rahmen03 from "@/assets/rahmen/rahmen_massanfertigungrahmen_03.jpg";
 import rahmen04 from "@/assets/rahmen/rahmen_massanfertigungrahmen_04.jpg";
@@ -13,7 +14,6 @@ import rahmen08 from "@/assets/rahmen/rahmen_massanfertigungrahmen_08.jpg";
 import rahmen09 from "@/assets/rahmen/rahmen_massanfertigungrahmen_09.jpg";
 import familie02 from "@/assets/kinder/portrait_familie_02.jpg";
 import familie03 from "@/assets/kinder/portrait_familie_03.jpg";
-import rahmenHeader02 from "@/assets/rahmen/header/rahmen_massanfertigungrahmen_kat_02.jpg";
 
 export const studio = {
   name: "foto-butik",
@@ -196,7 +196,7 @@ export const services = [
     subtitle: "Boutique-Werkstatt vor Ort",
     description: "Maßanfertigung, große Passepartout-Auswahl, UV-Schutzglas und Leinwandbespannung.",
     link: "/rahmen-einrahmung",
-    image: "rahmenHeader03",
+    image: rahmenHeader03,
     alt: "Rahmen und Einrahmung",
   },
 ];
@@ -290,49 +290,49 @@ export const trustItems = [
 export const rahmenImages = [
   {
     id: 1,
-    src: "rahmen02",
+    src: rahmen02,
     alt: "Rahmen0",
     category: "Rahmen",
   },
   {
     id: 2,
-    src: "rahmen03",
+    src: rahmen03,
     alt: "Rahmen1",
     category: "Rahmen",
   },
   {
     id: 3,
-    src: "rahmen04",
+    src: rahmen04,
     alt: "Rahmen2",
     category: "Rahmen",
   },
   {
     id: 4,
-    src: "rahmen05",
+    src: rahmen05,
     alt: "Rahmen3",
     category: "Rahmen",
   },
   {
     id: 5,
-    src: "rahmen06",
+    src: rahmen06,
     alt: "Rahmen4",
     category: "Rahmen",
   },
   {
     id: 6,
-    src: "rahmen07",
+    src: rahmen07,
     alt: "Rahmen5",
     category: "Rahmen",
   },
   {
     id: 7,
-    src: "rahmen08",
+    src: rahmen08,
     alt: "Rahmen6",
     category: "Rahmen",
   },
   {
     id: 8,
-    src: "rahmen09",
+    src: rahmen09,
     alt: "Rahmen7",
     category: "Rahmen",
   },
@@ -359,7 +359,7 @@ export const portfolioImages = [
   },
   {
     id: 4,
-    src: "familie02",
+    src: familie02,
     alt: "Familienfoto mit Kindern",
     category: "Familie",
   },
@@ -371,13 +371,13 @@ export const portfolioImages = [
   },
   {
     id: 7,
-    src: "familie03",
+    src: familie03,
     alt: "Kinderfoto natürlich",
     category: "Kinderfoto",
   },
   {
     id: 8,
-    src: "rahmenHeader02",
+    src: rahmenHeader02,
     alt: "Bilderrahmen Einrahmung",
     category: "Rahmen",
   },

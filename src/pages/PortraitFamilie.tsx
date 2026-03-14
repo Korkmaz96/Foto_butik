@@ -16,13 +16,13 @@ const galleryImages = [
   ...portfolioImages.filter((_, i) => [1, 4, 9].includes(i)),
   {
     id: 11,
-    src: "familie02",
+    src: familie02,
     alt: "Familie mit Baby",
     category: "Familie",
   },
   {
     id: 12,
-    src: "familie03",
+    src: familie03,
     alt: "Kinderfoto natürlich",
     category: "Familie",
   },
@@ -40,13 +40,13 @@ const galleryImages = [
   },
   {
     id: 15,
-    src: "schwangerschaft03",
+    src: schwangerschaft03,
     alt: "Schwangerschaft Portrait",
     category: "Schwangerschaft",
   },
   {
     id: 16,
-    src: "schwangerschaft04",
+    src: schwangerschaft04,
     alt: "Schwangerschaft Portrait",
     category: "Schwangerschaft",
   },
